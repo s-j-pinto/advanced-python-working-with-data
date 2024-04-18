@@ -2,6 +2,7 @@
 # Programming challenge: summarize the earthquake data
 
 import json
+import math
 
 
 # for this challenge, we're going to summarize the earthquake data as follows:
