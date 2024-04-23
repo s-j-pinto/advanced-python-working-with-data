@@ -9,14 +9,15 @@ strings = ["one", "three", "five", "seven", "eleven", "eighteen"]
 
 
 # TODO: The min() function finds the minimum value
-
+print(min(values))
+print(min(strings, key=len))
 
 # TODO: The max() function finds the maximum value
 
 
-# TODO: define a custom "key" function to extract a data field
+print(max(values))
 
 
-# TODO: open the data file and load the JSON
+print(max(strings, key=len))
 # with open("../../30DayQuakes.json", "r") as datafile:
 #     data = json.load(datafile)
